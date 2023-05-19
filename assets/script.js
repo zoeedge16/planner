@@ -32,7 +32,7 @@ $(function () {
             var txtArea = $(this).prev().val();
 
             localStorage.setItem(key, txtArea);
-        });
+        })
 
 
     
@@ -54,7 +54,7 @@ $(function () {
         var textarea = $(this).find('.description');
         var text = localStorage.getItem(id);
         textarea.val(text);
-    });
+    })
     //
     // TODO: Add code to display the current date in the header of the page.
 
